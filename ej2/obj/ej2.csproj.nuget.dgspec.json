@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisv\\OneDrive\\Desktop\\s12\\progest_s12\\ej1\\ej1.csproj": {}
+    "C:\\Users\\luisv\\OneDrive\\Desktop\\s12\\progest_s12\\ej2\\ej2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisv\\OneDrive\\Desktop\\s12\\progest_s12\\ej1\\ej1.csproj": {
+    "C:\\Users\\luisv\\OneDrive\\Desktop\\s12\\progest_s12\\ej2\\ej2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisv\\OneDrive\\Desktop\\s12\\progest_s12\\ej1\\ej1.csproj",
-        "projectName": "ej1",
-        "projectPath": "C:\\Users\\luisv\\OneDrive\\Desktop\\s12\\progest_s12\\ej1\\ej1.csproj",
+        "projectUniqueName": "C:\\Users\\luisv\\OneDrive\\Desktop\\s12\\progest_s12\\ej2\\ej2.csproj",
+        "projectName": "ej2",
+        "projectPath": "C:\\Users\\luisv\\OneDrive\\Desktop\\s12\\progest_s12\\ej2\\ej2.csproj",
         "packagesPath": "C:\\Users\\luisv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisv\\OneDrive\\Desktop\\s12\\progest_s12\\ej1\\obj\\",
+        "outputPath": "C:\\Users\\luisv\\OneDrive\\Desktop\\s12\\progest_s12\\ej2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luisv\\AppData\\Roaming\\NuGet\\NuGet.Config"
