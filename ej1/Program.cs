@@ -1,98 +1,86 @@
-﻿/*
-Escribir el programa que tenga una función recursiva que encuentre el
-número de nodos de un árbol binario. Se debe imprimir el árbol en recorrido
-preorden y a continuación mostrar la cantidad de nodos del árbol.
-(Importante: se deben solicitar los datos como entrada para crear el
-árbol)
-*/
+﻿using System;
 
-using System;
-using System.Collections.Generic;
-namespace GraphExample
+namespace ArbolBinario
 {
-	class Graph 
-	{
-    	private readonly int _numVertices;
-    	private readonly List<int>[] _adjacencyList;
+    // Nodo de un árbol binario
+    class Nodo
+    {
+        public int Valor;
+        public Nodo? Izquierdo;
+        public Nodo? Derecho;
 
-    	public Graph(int numVertices)
-    	{
-        	_numVertices = numVertices;
-        	_adjacencyList = new List<int>[numVertices];
-        	for (int i = 0; i < numVertices; i++)
-            	_adjacencyList[i] = new List<int>();
-    	}
+        public Nodo(int valor)
+        {
+            Valor = valor;
+            Izquierdo = null;
+            Derecho = null;
+        }
+    }
 
-    	public void AddEdge(int from, int to)
-    	{
-        	// para grafo dirigido
-        	_adjacencyList[from].Add(to);
-    	}
+    class Program
+    {
+        // Crea nodos de forma recursiva solicitando entrada al usuario
+        // posicion se usa para mostrar dónde estamos creando el nodo (ej. "la raíz", "hijo izquierdo de 5")
+        static Nodo? CrearNodoRecursivo(string posicion)
+        {
+            Console.Write($"¿Crear nodo en {posicion}? (s/n): ");
+            string? respuesta = Console.ReadLine()?.Trim().ToLower();
+            if (respuesta != "s")
+                return null;
 
-    	public void DFS(int start)
-    	{
-        	bool[] visited = new bool[_numVertices];
-        	DFSUtil(start, visited);
-    	}
+            int valor;
+            while (true)
+            {
+                Console.Write("Ingrese un valor entero para el nodo: ");
+                string? linea = Console.ReadLine();
+                if (int.TryParse(linea, out valor))
+                    break;
+                Console.WriteLine("Entrada inválida. Por favor ingrese un número entero.");
+            }
 
-    	private void DFSUtil(int v, bool[] visited)
-    	{
-        	visited[v] = true;
-        	Console.WriteLine("Visited node " + v);
+            Nodo nodo = new Nodo(valor);
+            nodo.Izquierdo = CrearNodoRecursivo($"hijo izquierdo de {valor}");
+            nodo.Derecho = CrearNodoRecursivo($"hijo derecho de {valor}");
+            return nodo;
+        }
 
-        	foreach (int neighbour in _adjacencyList[v])
-        	{
-            	if (!visited[neighbour])
-                	DFSUtil(neighbour, visited);
-        	}
-    	}
+        // Imprime el árbol en recorrido preorden
+        static void Preorden(Nodo? nodo)
+        {
+            if (nodo == null)
+                return;
+            Console.Write(nodo.Valor + " ");
+            Preorden(nodo.Izquierdo);
+            Preorden(nodo.Derecho);
+        }
 
-    	public void BFS(int start)
-    	{
-        	bool[] visited = new bool[_numVertices];
-        	Queue<int> queue = new Queue<int>();
+        // Cuenta los nodos del árbol de forma recursiva
+        static int ContarNodos(Nodo? nodo)
+        {
+            if (nodo == null)
+                return 0;
+            return 1 + ContarNodos(nodo.Izquierdo) + ContarNodos(nodo.Derecho);
+        }
 
-        	visited[start] = true;
-        	queue.Enqueue(start);
+        static void Main(string[] args)
+        {
 
-        	while (queue.Count > 0)
-        	{
-            	int v = queue.Dequeue();
-            	Console.WriteLine("Visited node " + v);
+            Nodo? raiz = CrearNodoRecursivo("la raíz");
+            Console.WriteLine();
 
-            	foreach (int neighbour in _adjacencyList[v])
-            	{
-                	if (!visited[neighbour])
-                	{
-                    	visited[neighbour] = true;
-                    	queue.Enqueue(neighbour);
-                	}
-            	}
-        	}
-    	}
-}
+            if (raiz == null)
+            {
+                Console.WriteLine("El árbol está vacío.");
+                Console.WriteLine("Cantidad de nodos: 0");
+                return;
+            }
 
-	class Program
-	{
-    	static void Main(string[] args)
-		{
-			// crear grafo con 5 nodos (0-4)
-			
-			
-			Graph g = new Graph(5);
+            Console.WriteLine("Recorrido en preorden:");
+            Preorden(raiz);
+            Console.WriteLine();
 
-        	g.AddEdge(0, 1);
-        	g.AddEdge(0, 2);
-        	g.AddEdge(1, 2);
-        	g.AddEdge(2, 0);
-        	g.AddEdge(2, 3);
-        	g.AddEdge(3, 3);
-
-        	Console.WriteLine("Depth First Traversal (desde el nodo 2):");
-        	g.DFS(2);
-
-        	Console.WriteLine("Breadth First Traversal (desde el nodo 2):");
-        	g.BFS(2);
-    	}
-	}
+            int cantidad = ContarNodos(raiz);
+            Console.WriteLine($"Cantidad de nodos del árbol: {cantidad}");
+        }
+    }
 }
