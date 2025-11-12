@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minit\\OneDrive\\Desktop\\IIS\\PROGEST\\s12\\s12\\progest_s12\\ej1\\ej1.csproj",
-      "projectName": "ej1",
-      "projectPath": "C:\\Users\\minit\\OneDrive\\Desktop\\IIS\\PROGEST\\s12\\s12\\progest_s12\\ej1\\ej1.csproj",
+      "projectUniqueName": "C:\\Users\\minit\\OneDrive\\Desktop\\IIS\\PROGEST\\s12\\s12\\progest_s12\\ej3\\ej3.csproj",
+      "projectName": "ej3",
+      "projectPath": "C:\\Users\\minit\\OneDrive\\Desktop\\IIS\\PROGEST\\s12\\s12\\progest_s12\\ej3\\ej3.csproj",
       "packagesPath": "C:\\Users\\minit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minit\\OneDrive\\Desktop\\IIS\\PROGEST\\s12\\s12\\progest_s12\\ej1\\obj\\",
+      "outputPath": "C:\\Users\\minit\\OneDrive\\Desktop\\IIS\\PROGEST\\s12\\s12\\progest_s12\\ej3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
