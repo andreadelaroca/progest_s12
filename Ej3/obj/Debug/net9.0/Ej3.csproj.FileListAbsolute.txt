@@ -1,0 +1,15 @@
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\bin\Debug\net9.0\Ej3.exe
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\bin\Debug\net9.0\Ej3.deps.json
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\bin\Debug\net9.0\Ej3.runtimeconfig.json
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\bin\Debug\net9.0\Ej3.dll
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\bin\Debug\net9.0\Ej3.pdb
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\obj\Debug\net9.0\Ej3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\obj\Debug\net9.0\Ej3.AssemblyInfoInputs.cache
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\obj\Debug\net9.0\Ej3.AssemblyInfo.cs
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\obj\Debug\net9.0\Ej3.csproj.CoreCompileInputs.cache
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\obj\Debug\net9.0\Ej3.sourcelink.json
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\obj\Debug\net9.0\Ej3.dll
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\obj\Debug\net9.0\refint\Ej3.dll
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\obj\Debug\net9.0\Ej3.pdb
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\obj\Debug\net9.0\Ej3.genruntimeconfig.cache
+C:\Users\luisv\OneDrive\Desktop\UAM\PROGRAMACION ESTRUCTURADA\CLASE 11-11-2025\progest_s12\Ej3\obj\Debug\net9.0\ref\Ej3.dll

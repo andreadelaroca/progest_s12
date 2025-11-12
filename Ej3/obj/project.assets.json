@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luisv\\OneDrive\\Desktop\\UAM\\PROGRAMACION ESTRUCTURADA\\CLASE 11-11-2025\\progest_s12\\ej1\\ej1.csproj",
-      "projectName": "ej1",
-      "projectPath": "C:\\Users\\luisv\\OneDrive\\Desktop\\UAM\\PROGRAMACION ESTRUCTURADA\\CLASE 11-11-2025\\progest_s12\\ej1\\ej1.csproj",
+      "projectUniqueName": "C:\\Users\\luisv\\OneDrive\\Desktop\\UAM\\PROGRAMACION ESTRUCTURADA\\CLASE 11-11-2025\\progest_s12\\Ej3\\Ej3.csproj",
+      "projectName": "Ej3",
+      "projectPath": "C:\\Users\\luisv\\OneDrive\\Desktop\\UAM\\PROGRAMACION ESTRUCTURADA\\CLASE 11-11-2025\\progest_s12\\Ej3\\Ej3.csproj",
       "packagesPath": "C:\\Users\\luisv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luisv\\OneDrive\\Desktop\\UAM\\PROGRAMACION ESTRUCTURADA\\CLASE 11-11-2025\\progest_s12\\ej1\\obj\\",
+      "outputPath": "C:\\Users\\luisv\\OneDrive\\Desktop\\UAM\\PROGRAMACION ESTRUCTURADA\\CLASE 11-11-2025\\progest_s12\\Ej3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luisv\\AppData\\Roaming\\NuGet\\NuGet.Config"
