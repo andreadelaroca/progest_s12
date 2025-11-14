@@ -7,7 +7,7 @@ class Nodo
     public Nodo(int dato) { Dato = dato; }
 }
 
-class ArbolBST
+class ArbolBST //reglas de un arbol Binario de Búsqueda
 {
     public Nodo Raiz;
 
