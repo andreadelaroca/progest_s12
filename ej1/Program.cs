@@ -6,7 +6,7 @@ namespace ArbolBinario
     class Nodo
     {
         public int Valor;
-        public Nodo? Izquierdo;
+        public Nodo? Izquierdo; // ? indica que puede ser null
         public Nodo? Derecho;
 
         public Nodo(int valor)
@@ -24,7 +24,7 @@ namespace ArbolBinario
         static Nodo? CrearNodoRecursivo(string posicion)
         {
             Console.Write($"¿Crear nodo en {posicion}? (s/n): ");
-            string? respuesta = Console.ReadLine()?.Trim().ToLower();
+            string? respuesta = Console.ReadLine()?.Trim().ToLower(); //Trim() remueve espacios
             if (respuesta != "s")
                 return null;
 
